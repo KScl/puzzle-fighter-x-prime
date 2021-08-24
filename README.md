@@ -38,7 +38,7 @@ This step is necessary because data is *not* encrypted in CPS2 ROMs.
 The command for this is `python3.7 patch.py -b ./src/data_03.patch.s [pzfe.03]`.
 
 5. Patch `pzf.04` with data_04.patch.s. Make sure to enable byte-swap mode.<br />
-The command for this is `python3.7 patch.py -b ./src/data_03.patch.s [pzf.04]`.<br />
+The command for this is `python3.7 patch.py -b ./src/data_04.patch.s [pzf.04]`.<br />
 Decrypting this ROM is not necessary as it contains only data.
 
 6. Apply the IPS patches in the `gfx` folder to their respective graphics ROMs.
