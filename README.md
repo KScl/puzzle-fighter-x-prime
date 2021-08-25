@@ -19,6 +19,10 @@ In addition, a few extra changes for ease of use have been made:
 * Free Play has been enabled by default.
 * `X'` is displayed on screen during gameplay (between the win counters) to differentiate from vanilla.
 
+## Download
+
+See [Releases](https://github.com/KScl/puzzle-fighter-x-prime/releases) for IPS patches.
+
 ## Compilation / Patching
 The included Python script was tested with Python 3.7, and requires `binutils-m68k-linux-gnu` to function.
 
