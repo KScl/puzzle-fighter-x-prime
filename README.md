@@ -23,6 +23,17 @@ In addition, a few extra changes for ease of use have been made:
 
 See [Releases](https://github.com/KScl/puzzle-fighter-x-prime/releases) for IPS patches.
 
+After patching, the files should have the following hashes. If you want to use this in FBNeo / Fightcade, you should also rename the files as follows:
+
+```
+pzfe.03 -> pzfxp.03   CRC32(f205a7da) SHA1(3fa4b7ecc54d239061148781ecdc469f975122af)
+pzf.04  -> pzfxp.04   CRC32(4177aadd) SHA1(c218d2446f3fc348a952a8b7a75dace864fed0f9)
+pzf.14m -> pzfxp.14m  CRC32(930b0ec7) SHA1(60b786dca5a943010b0273a5f6d084453a3bd121)
+pzf.16m -> pzfxp.16m  CRC32(769377ad) SHA1(eb86026999ab01e74a975d03305d637899615bf4)
+pzf.18m -> pzfxp.18m  CRC32(5a79233f) SHA1(31ca4744be2d7860351dc56fbb3e03e0ddf35b09)
+pzf.20m -> pzfxp.20m  CRC32(42cfc9e2) SHA1(04cadb017163732f5ba022733d0cb442ce3cada3)
+```
+
 ## Compilation / Patching
 The included Python script was tested with Python 3.7, and requires `binutils-m68k-linux-gnu` to function.
 
