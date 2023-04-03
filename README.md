@@ -21,9 +21,11 @@ In addition, a few extra changes for ease of use have been made:
 
 ## Download
 
-See [Releases](https://github.com/KScl/puzzle-fighter-x-prime/releases) for IPS patches.
+_If you just want to play, not make any further modifications to the code:_
 
-After patching, the files should have the following hashes. If you want to use this in FBNeo / Fightcade, you should also rename the files as follows:
+See [Releases](https://github.com/KScl/puzzle-fighter-x-prime/releases) for IPS patches. Unzip the `spf2t` rom set into a folder, and apply each patch to the rom that it's named after. After patching, zip all of the roms together again.
+
+If you want to play on Fightcade, you'll need to rename the roms to match the names given below, and ensure that each rom matches the hashes listed below. Then zip just these six roms together into an archive called `spf2xpri.zip`.
 
 ```
 pzfe.03 -> pzfxp.03   CRC32(f205a7da) SHA1(3fa4b7ecc54d239061148781ecdc469f975122af)
@@ -34,7 +36,10 @@ pzf.18m -> pzfxp.18m  CRC32(5a79233f) SHA1(31ca4744be2d7860351dc56fbb3e03e0ddf35
 pzf.20m -> pzfxp.20m  CRC32(42cfc9e2) SHA1(04cadb017163732f5ba022733d0cb442ce3cada3)
 ```
 
-## Compilation / Patching
+## Compiling from Scratch
+
+_You only need to do this if you've made changes to the code. If you just want to play, look at the above section instead._
+
 The included Python script was tested with Python 3.7, and requires `binutils-m68k-linux-gnu` to function.
 
 You'll need X.C.O.P.Y. or any other tool that can decrypt the CPS2 ROMs to be able to patch it.
